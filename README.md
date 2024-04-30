@@ -26,9 +26,3 @@ Welcome to the University System Management project! This project is a comprehen
 - Utilize the PHP Mailer functionality to send login credentials to students' email addresses.
 - Students can log in using their provided credentials to access their profiles and other relevant information.
 
-## Contributing
-Contributions to the project are welcome! Feel free to fork the repository, make changes, and submit pull requests.
-
-## License
-This project is licensed under the [MIT License](LICENSE).
-
