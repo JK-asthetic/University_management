@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(22, 20, 24);
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+
+
+
+
+}
+.login-section {
+    margin-top: 100px;
+    margin-left: 37%;
+    user-select: none;
+    height: 530px;
+    width: 400px;
+    position: absolute;
+    border: 1px solid #ffffff22;
+    background-color: #282c34;
+    background: linear-gradient(0deg, rgba(40, 44, 52, 1) 0%, rgba(17, 0, 32, .5) 100%);
+    box-shadow: 0 7px 20px 5px #00000088;
+    border-radius: .7rem;
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    overflow: hidden;
+    transition: .5s all;
+    z-index: 1; 
+    transform: translateZ(0);
+}
+
+.login-section:hover {
+    border: 1px solid #ffffff44;
+    height: 535px;
+    width: 405px;
+    box-shadow: 0 7px 50px 10px #000000aa;
+    filter: brightness(1.3); 
+}
+
+.login-section .formbox {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    /* height of contetnt */
+    width: 100%;
+}
+
+.formbox h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.formbox .input-box {
+    width: 340px;
+    height: 50%;
+    border-bottom: 2px solid #fff;
+    margin: 30px 0;
+    padding: 10px;
+    position: relative;
+
+
+}
+
+.input-box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    padding-right: 28px;
+    color: #fff;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s ease;
+
+}
+
+.input-box .icon {
+    position: absolute;
+    top: 13px;
+    right: 0;
+    font-size: 19px;
+    cursor: pointer;
+
+}
+
+.input-box input:focus~label,
+.input-box input:valid~label {
+    top: -5px;
+
+}
+
+.remember-password {
+    font-size: 14px;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+
+
+
+}
+
+.remember-password label input {
+    accent-color: #ff0000;
+    margin: 3px;
+
+}
+
+.remember-password label:hover {
+    text-decoration: underline;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.remember-password a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #fff;
+
+}
+
+
+.btn {
+    margin-top: 50px;
+    background-color: #fff;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background-color: #ff3434;
+    box-shadow: rgba(0, 0, 0, 0.4);
+
+}
+
+.btn:hover {
+    background-color: #ff0000;
+    color: #fff;
+}
+
+
+.create-account {
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 25px;
+
+}
+
+
+.create-account p a {
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+}
+
+.create-account p a:hover {
+    columns: #ff0000;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+#usericon {
+    color: #fff;
+    font-size: 70px;
+    margin-left: 150px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
